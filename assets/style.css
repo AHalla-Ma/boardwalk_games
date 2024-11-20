@@ -91,6 +91,22 @@ h2 {
 #contact .sub-heading-color {
     color: var(--light-highlight);
 }
+
+#contact i {
+    color: var(--secondary-color);
+    font-size: 1.2rem; 
+    margin-right: 15px; 
+}
+
+#contact .social-links i {
+    color: var(--light-highlight);
+    font-size: 1.9rem;
+    transition: color 0.3s ease-in-out;
+}
+
+#contact .social-links i:hover {
+    color: var(--secondary-color);
+}
     /* Media Queries */
 
     /* Medium devices (tablets 768px and up) */
